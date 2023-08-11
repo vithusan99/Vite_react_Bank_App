@@ -24,7 +24,7 @@ function Navbar() {
         }
       </ul>
       <div className=" sm:hidden flex flex-1 justify-end items-center">
-        <img src={toggle? close : menu} className='w-[28px] h-[28px] object-contain' 
+        <img src={toggle? close : menu} className='w-[23px] h-[23px] object-contain' 
         onClick={()=>setToggle((prev)=>!prev)} alt={toggle? "close" : "menu"}  />
 
         <div className={`${toggle? 'flex':'hidden'} p-3 bg-black-gradient absolute 
